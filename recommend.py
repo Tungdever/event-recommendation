@@ -14,8 +14,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 logger = logging.getLogger(__name__)
 
 # Cấu hình API
-EVENT_VIEWS_API = 'https://utevent-3e31c1e0e5ff.herokuapp.com/api/events/export-event-views'
-ACTIVE_EVENTS_API = 'https://utevent-3e31c1e0e5ff.herokuapp.com/api/events/active-ids'
+EVENT_VIEWS_API = 'https://event-management-server-asi9.onrender.com/api/events/export-event-views'
+ACTIVE_EVENTS_API = 'https://event-management-server-asi9.onrender.com/api/events/active-ids'
 
 # Biến toàn cục cho mô hình và trainset
 model = None
